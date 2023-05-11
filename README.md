@@ -13,7 +13,7 @@
     </theader>
     <tbody>
         <tr><td colspan="3"><span style="font-weight:bold;">Etapa</span>: Front-end</td></tr>
-        <tr><td><span style="font-weight:bold;">Inicio</span>:  2023/04/29</td><td><span style="font-weight:bold;">Semana</span>: 2</td></tr>
+        <tr><td><span style="font-weight:bold;">Inicio</span>:  2023/04/29</td></tr>
     </tbody>
 </table>
 </div>
@@ -30,7 +30,6 @@
 <tr><td>ASIGNATURA:</td><td colspan="5">Programacion Web Front-End</td></tr>
 <tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Estilos con CSS</td></tr>
 <tr>
-<
 </tr>
 <tr>
 </tr>
@@ -48,46 +47,28 @@
 <li>Elliot Garamendi</li>
 </ul>
 </td>
-</<tr>
+<tr>
 </tdbody>
 </table>
 
-# Pilas y Colas
-
-[![License][license]][license-file]
-[![Downloads][downloads]][releases]
-[![Last Commit][last-commit]][releases]
-
-[![Debian][Debian]][debian-site]
-[![Git][Git]][git-site]
-[![GitHub][GitHub]][github-site]
-[![Vim][Vim]][vim-site]
-[![Java][Java]][java-site]
-
-#
+# Estilos con CSS
 
 ## OBJETIVOS TEMAS Y COMPETENCIAS
 
 ### OBJETIVOS
 
-- Realizar ejercicios en temas de Estructuras de datos, Pilas, Colas.
+- Agregar estilos a los index.html.
 
 ### TEMAS
-- Pilas
-- Colas
+- Contenedores
+- Clases, ids
 
 <details>
 <summary>COMPETENCIAS</summary>
 
-- C.m. Construye responsablemente soluciones haciendo uso de estructuras de datos y algoritmos, siguiendo un proceso adecuado para resolver problemas computacionales que se ajustan al uso de los recursos disponibles y a especificaciones concretas.
+- Construye paginas web usando html como estructura general, y agrega estilos con css a las paginas.
 
 </details>
-
-## CONTENIDO DE LA GUÍA
-
-### MARCO CONCEPTUAL
-
-
 
 ## REFERENCIAS
     - https://www.w3schools.com/java/
