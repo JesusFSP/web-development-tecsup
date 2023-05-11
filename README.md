@@ -4,12 +4,12 @@
         <tr>
             <td><img src="./img/logo-tecsup.svg" alt="EPIS" style="width:50%; height:auto"/></td>
             <th>
-                <span style="font-weight:bold;">UNIVERSIDAD NACIONAL DE SAN AGUSTIN</span><br />
-                <span style="font-weight:bold;">FACULTAD DE INGENIERÍA DE PRODUCCIÓN Y SERVICIOS</span><br />
-                <span style="font-weight:bold;">DEPARTAMENTO ACADÉMICO DE INGENIERÍA DE SISTEMAS E INFORMÁTICA</span><br />
-                <span style="font-weight:bold;">ESCUELA PROFESIONAL DE INGENIERÍA DE SISTEMAS</span>
+                <span style="font-weight:bold;">INSTITUTO DE EDUCACION SUPERIOR TECSUP</span><br />
+                <span style="font-weight:bold;">BOOTCAMP</span><br />
+                <span style="font-weight:bold;">PROGRAMACION WEB FULL-STACK</span><br />
+                <span style="font-weight:bold;">FRONT-END</span>
             </th>
-            <td><img src="https://github.com/rescobedoq/pw2/blob/main/abet.png?raw=true" alt="ABET" style="width:50%; height:auto"/></td>
+            <td><img src="./img/foto-perfil.jpg" alt="Foto Perfil" style="width:50%; height:auto"/></td>
         </tr>
     </theader>
     <tbody>
