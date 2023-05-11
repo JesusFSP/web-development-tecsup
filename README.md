@@ -6,15 +6,14 @@
             <th>
                 <span style="font-weight:bold;">INSTITUTO DE EDUCACION SUPERIOR TECSUP</span><br />
                 <span style="font-weight:bold;">BOOTCAMP</span><br />
-                <span style="font-weight:bold;">PROGRAMACION WEB FULL-STACK</span><br />
-                <span style="font-weight:bold;">FRONT-END</span>
+                <span style="font-weight:bold;">PROGRAMACION WEB FULL-STACK</span><br/>
             </th>
             <td><img src="./img/foto-perfil.jpg" alt="Foto Perfil" style="width:2rem; height:auto"/></td>
         </tr>
     </theader>
     <tbody>
-        <tr><td colspan="3"><span style="font-weight:bold;">Formato</span>: Guía de Práctica de Laboratorio</td></tr>
-        <tr><td><span style="font-weight:bold;">Aprobación</span>:  2022/03/01</td><td><span style="font-weight:bold;">Código</span>: GUIA-PRLD-001</td><td><span style="font-weight:bold;">Página</span>: 1</td></tr>
+        <tr><td colspan="3"><span style="font-weight:bold;">Etapa</span>: Front-end</td></tr>
+        <tr><td><span style="font-weight:bold;">Inicio</span>:  2023/04/29</td><td><span style="font-weight:bold;">Código</span>: GUIA-PRLD-001</td><td><span style="font-weight:bold;">Página</span>: 1</td></tr>
     </tbody>
 </table>
 </div>
