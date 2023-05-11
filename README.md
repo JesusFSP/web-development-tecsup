@@ -13,7 +13,7 @@
     </theader>
     <tbody>
         <tr><td colspan="3"><span style="font-weight:bold;">Etapa</span>: Front-end</td></tr>
-        <tr><td><span style="font-weight:bold;">Inicio</span>:  2023/04/29</td><td><span style="font-weight:bold;">Código</span>: GUIA-PRLD-001</td><td><span style="font-weight:bold;">Página</span>: 1</td></tr>
+        <tr><td><span style="font-weight:bold;">Inicio</span>:  2023/04/29</td><td><span style="font-weight:bold;">Semana</span>: 2</td></tr>
     </tbody>
 </table>
 </div>
