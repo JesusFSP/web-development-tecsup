@@ -19,22 +19,20 @@
 </div>
 
 <div align="center">
-<span style="font-weight:bold;">INFORME DE LABORATORIO</span><br />
+<span style="font-weight:bold;">Semana 2</span><br />
 </div>
-
 
 <table>
 <theader>
 <tr><th colspan="6">INFORMACIÓN BÁSICA</th></tr>
 </theader>
 <tbody>
-<tr><td>ASIGNATURA:</td><td colspan="5">Estructura de Datos y Algoritmos</td></tr>
-<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">LAB03</td></tr>
+<tr><td>ASIGNATURA:</td><td colspan="5">Programacion Web Front-End</td></tr>
+<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Estilos con CSS</td></tr>
 <tr>
-<td>NÚMERO DE PRÁCTICA:</td><td>03</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
+<
 </tr>
 <tr>
-<td>FECHA INICIO::</td><td>16-May-2022</td><td>FECHA FIN:</td><td>20-May-2022</td><td>DURACIÓN:</td><td>02 horas</td>
 </tr>
 <tr><td colspan="6">RECURSOS:
     <ul>
@@ -47,7 +45,7 @@
 </<tr>
 <tr><td colspan="6">DOCENTES:
 <ul>
-<li>Richart Smith Escobedo Quispe - rescobedoq@unsa.edu.pe</li>
+<li>Elliot Garamendi</li>
 </ul>
 </td>
 </<tr>
