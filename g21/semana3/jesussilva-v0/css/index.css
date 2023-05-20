@@ -9,6 +9,9 @@ tipo de fuente */
     font-family: monospace;
   }
   /*
+    Saca el header y lo posiciona sobre toda la pagina
+    Le da espacio arriba y abajo
+    Hace que ocupe todo el espacio
     Agrega sombra al header
   */
   .header {
@@ -26,7 +29,9 @@ tipo de fuente */
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  
+  /* Pone un limite maximo del contenedor
+  Le da relleno a la derecha e izquierda
+  Agarra el espacio y lo divide en 2*/
   .container {
     max-width: 1024px;
     padding-right: 1rem;
@@ -35,7 +40,7 @@ tipo de fuente */
   }
   
   .img {
-    object-fit: cover;
+    display: block;
   }
   
   .img--logo {
@@ -71,6 +76,65 @@ tipo de fuente */
     justify-content: space-between;
   }
   
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    max-width: 512px;
+  }
+  
+  .card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .card__title--lg {
+    font-size: 1.75rem;
+  }
+  
+  .card__text {
+    margin: 0;
+  }
+  
+  .icon {
+    padding: 0.5rem;
+    display: flex;
+    font-size: 1rem;
+    color: #149eca;
+    box-shadow: 0 0 0 0.125rem #149eca;
+    border-radius: 50%;
+    overflow: hidden;
+    text-decoration: none;
+    text-shadow: 0 0 0.5rem red;
+  }
+  
+  .icon i {
+    display: flex;
+  }
+  .g-layout {
+    display: grid;
+  }
+  
+  .g-layout--1-1 {
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 768px) {
+    .g-layout--1-1 {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
   .d-flex {
     display: flex;
   }
@@ -78,21 +142,17 @@ tipo de fuente */
   .gap-xs {
     gap: 1rem;
   }
-  .hero { 
-    background-color: #2b303b;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  
+  .color-primary {
+    color: #149eca;
   }
-  .g-layaout{
-    display: grid;
+  
+  .d-none {
+    display: none;
   }
-  .g-layaout--1-1 {
-    grid-template-columns: 1fr;
-  }
-  @media(min-width: 768px){
-    .g-layaout--1-1 {
-        grid-template-columns: 1fr 1fr;
-      }
+  
+  @media (min-width: 768px) {
+    .md\:d-block {
+      display: block;
+    }
   }
