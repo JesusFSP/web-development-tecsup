@@ -5,56 +5,61 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Desarrollo Web Tecsup I Las mejores páginas web en Perú</title>
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./styles/css/index.css" />
+  <link rel="stylesheet" href="./styles/css/fe.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
 </head>
 
-<body>
-  <header>
-    <nav>
-      <div>
-        <a href="/">
+<body class="body">
+  <header class="header">
+    <nav class="nav">
+      <div class="container flexbox flexbox--header">
+        <a href="#">
           <img src="./img/logo-tecsup.svg" alt="Logo de Tecsup" width="132.875" height="32" />
         </a>
-        <ul>
+        <ul class="list flexbox flexbox--center flexbox--responsive gap-4xs">
           <li>
-            <a href="#teams">Teams</a>
+            <a href="#" class="link">Teams</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/jesus-francisco-silva-pino-8283a6275/" target="_blank" rel="noopener noreferrer">Jesus</a>
+            <a href="https://www.linkedin.com/in/jesus-francisco-silva-pino-8283a6275/" target="_blank"
+              rel="noopener noreferrer" class="link">Jesus</a>
+          </li>
+        </ul>
+        <ul class="list flexbox flexbox--center flexbox--responsive gap-5xs">
+          <li>
+            <a href="https://youtube.com/@jesussilvapino9139" target="_blank" rel="noopener noreferrer" class="link">
+              <i class="bi bi-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/JesusFSP" target="_blank" rel="noopener noreferrer" class="link">
+              <i class="bi bi-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jesus-francisco-silva-pino-8283a6275/" target="_blank"
+              rel="noopener noreferrer" class="link">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/kvothessn/" target="_blank" rel="noopener noreferrer" class="link">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="link">Contacto</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
-  <main>
-    <article>
-      <div>
-        <div>
-          <h1>Bienvenidos al mejor curso de desarrollo web frontend</h1>
-          <h2>¡Hola! Soy Jesus Silva. Estudiante</h2>
-          <p>
-            En este curso aprenderás todo sobre el desarrollo web frontend. Contamos con los mejores profesionales en el
-            desarrollo frontend, emplearemos las últimas tecnologías del campo laboral y haremos realidad los mejores
-            diseños desarrollados por nuestro equipo UX/UI. Asimismo, con Elliot Garamendi, puedes hacer realidad tus
-            sueños que han estado en tu mente, porque si lo puedes imaginar, lo podemos programar. ¡Transformemos vidas!
-            Aprende git, Programación, HTML, CSS, JavaScript, Bootstrap, Sass, Node, React, Next.js, Redux, Testing
-          </p>
-          <a href="#">Contáctenos</a>
-        </div>
-        <img src="./img/hero-professional.svg" alt="Profesional de la portada" width="256" height="256"/>
-      </div>
-    </article>
-    <section id="teams">
-      <div>
-        <h2>Teams</h2>
-        <ul>
-          <li>
-            <a href="./g21/">G21</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
 </body>
 
 </html>
