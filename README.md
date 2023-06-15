@@ -8,7 +8,7 @@
                 <span style="font-weight:bold;">BOOTCAMP</span><br />
                 <span style="font-weight:bold;">PROGRAMACION WEB FULL-STACK</span><br/>
             </th>
-            <td><img src="./img/foto-perfil.jpg" alt="Foto Perfil" style="width:2rem; height:auto"/></td>
+            <td><img src="../img/foto-perfil.jpg" alt="Foto Perfil" style="width:2rem; height:auto"/></td>
         </tr>
     </theader>
     <tbody>
