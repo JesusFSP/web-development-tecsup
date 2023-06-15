@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,KAAM;EACF,MAAM,EAAE,CAAC",
-"sources": ["../scss/fe.scss"],
-"names": [],
-"file": "fe.css"
-}
