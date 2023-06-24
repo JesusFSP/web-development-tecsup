@@ -6,45 +6,55 @@ const Header = ({ routeLinks, socialNetworks }) => {
     const openMenu = () => {
         offCanvas.current.classList.add('off-canvas--show')
     }
+    const closeMenu = () => {
+        offCanvas.current.classList.remove('off-canvas--show')
+    }
+
     return (
         <header className="header">
             <nav className="nav">
                 <div className="container flexbox flexbox--header">
                     <a href="#hero">
-                    <img src={jesussilva} alt="" width={48} height={48} className="img img--logo" />
+                        <img src={jesussilva} alt="" width={48} height={48} className="img img--logo" />
                     </a>
-                    <div ref={offCanvas} className='off-canvas off-canvas--right '>
+                    <div ref={offCanvas}
+                        className='off-canvas 
+                    off-canvas--right 
+                    off-canvas--mobile'>
                         <div className="off-canvas__child">
-                        <ul className="list flexbox flexbox--center flexbox--responsive h-100 gap-4xs">
-                            {routeLinks.map((element, index) => {
-                                const { href, title, content } = element;
-                                return (
-                                    <li key={index}>
-                                        <a href={href} title={title} className="link">{content}</a>
-                                    </li>
-                                );
-                            })}
-                        </ul>
+                            <button className="off-canvas__close icon" onClick={closeMenu}>
+                                <i className="bi bi-x-circle"></i>
+                            </button>
+                            <ul className="list flexbox flexbox--center flexbox--responsive h-100 gap-4xs">
+                                {routeLinks.map((element, index) => {
+                                    const { href, title, content } = element;
+                                    return (
+                                        <li key={index}>
+                                            <a href={href} title={title} className="link">{content}</a>
+                                        </li>
+                                    );
+                                })}
+                            </ul>
                         </div>
                     </div>
-                    <ul className="list flexbox flexbox--responsive gap-4xs">
+                    <ul className="list d-flex a-items-center gap-4xs">
                         {socialNetworks.map((element, index) => {
                             const { href, title, content } = element;
                             return (
                                 <li key={index}>
-                                    <a 
+                                    <a
                                         href={href}
                                         title={title}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="link"
-                                        dangerouslySetInnerHTML={{__html: content }}
+                                        className="link link--lg"
+                                        dangerouslySetInnerHTML={{ __html: content }}
                                     />
                                 </li>
                             );
                         })}
-                        <button onClick={openMenu}>
-                            <i class="bi bi-list"></i>
+                        <button onClick={openMenu} className="icon md:d-none">
+                            <i className="bi bi-list"></i>
                         </button>
                     </ul>
                 </div>

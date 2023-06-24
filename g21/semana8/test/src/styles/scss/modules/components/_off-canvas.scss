@@ -16,15 +16,38 @@
         pointer-events: auto;
         --of-canvas-child-movement: 0%;
     }
-    &--right .off-canvas__child{
-        top: 0;
-        right: 0;
-        transform: translateX(var(--of-canvas-child-movement));
-        -webkit-transform: translateX(var(--of-canvas-child-movement));
-        -moz-transform: translateX(var(--of-canvas-child-movement));
-        -ms-transform: translateX(var(--of-canvas-child-movement));
-        -o-transform: translateX(var(--of-canvas-child-movement));
-}
+
+    &--right {
+        & .off-canvas__child {
+            top: 0;
+            right: 0;
+            transform: translateX(var(--of-canvas-child-movement));
+            -webkit-transform: translateX(var(--of-canvas-child-movement));
+            -moz-transform: translateX(var(--of-canvas-child-movement));
+            -ms-transform: translateX(var(--of-canvas-child-movement));
+            -o-transform: translateX(var(--of-canvas-child-movement));
+        }
+
+        & .off-canvas__close {
+            top: calc(var(--primary-element-spacing) / 2);
+            left: calc(var(--primary-element-spacing) / 2);
+        }
+    }
+
+    @media (min-width: 768px) {
+        &--mobile {
+            all: unset;
+            --of-canvas-child-movement: 0%;
+            
+            & .off-canvas__child {
+                all: unset;
+            }
+
+            & .off-canvas__close {
+                display: none;
+            }
+        }
+    }
 
     &__child {
         position: absolute;
@@ -38,5 +61,9 @@
         -moz-transition: transform 0.25s;
         -ms-transition: transform 0.25s;
         -o-transition: transform 0.25s;
-}
+    }
+
+    &__close {
+        position: absolute;
+    }
 }
