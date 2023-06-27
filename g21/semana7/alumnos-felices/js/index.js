@@ -1,50 +1,47 @@
 'use strict';
+
 window.addEventListener('DOMContentLoaded', () => {
   fetch('https://elliotgaramendi.github.io/web-development-tecsup/g21/semana7/alumnos-felices/json/students.json')
     .then(response => response.json())
     .then(data => {
       const studentCards = document.getElementById('studentCards');
-      data.forEach(element => {
-        const {name, year, photo } = element;
+      data.forEach((element, index) => {
+        const {image, name, age, keywords, location, description, technologies, youtube, github, linkedin, instagram} = element;
         studentCards.innerHTML += `
-          <div class="card">
+          <div class="card" key=${index}>
             <div class="card__body">
-              <img src="${photo}" alt="${name}" width="128"
+              <img src="${image}" alt="${name}" width="128"
                 height="128" class="card__img" />
               <h2 class="card__title">
                 ${name}
-                <sup>${year}</sup>
+                <sup>${age}</sup>
               </h2>
-              <h3 class="card__subtitle">Frontend Developer, Docente</h3>
-              <span class="card__subtitle"><i class="bi bi-geo-alt"></i> Lima, Perú <i class="bi bi-geo-alt"></i></span>
+              <h3 class="card__subtitle">${keywords}</h3>
+              <span class="card__subtitle"><i class="bi bi-geo-alt"></i> ${location} <i class="bi bi-geo-alt"></i></span>
               <p class="card__text">
-                Desarrollador Web Frontend con React y Next.js. Docente de especialización en Desarrollo Web Frontend.
-                Apasionado
-                del autoaprendizaje y del código limpio.
+                ${description}
               </p>
               <ul class="list d-flex gap-5xs">
-                <li class="skill">React</li>
-                <li class="skill">Next.js</li>
-                <li class="skill">SEO</li>
+                <li class="skill">${technologies}</li>
               </ul>
               <ul class="list d-flex gap-5xs">
                 <li>
-                  <a href="https://www.youtube.com/@elliotgaramendi">
+                  <a href="https://www.youtube.com/${youtube}">
                     <i class="bi bi-youtube icon"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/elliotgaramendi">
+                  <a href="https://github.com/${github}">
                     <i class="bi bi-github icon"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/elliotgaramendi/">
+                  <a href="https://www.linkedin.com/in/${linkedin}/">
                     <i class="bi bi-linkedin icon"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/elliotgaramendi/">
+                  <a href="https://www.instagram.com/${instagram}/">
                     <i class="bi bi-instagram icon"></i>
                   </a>
                 </li>
@@ -52,6 +49,6 @@ window.addEventListener('DOMContentLoaded', () => {
             </div>
           </div>
         `;
-      })
+      });
     });
 });
